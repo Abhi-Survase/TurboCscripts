@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main(){
+	
+	int p, n, r;
+	float si;
+	
+	printf("Enter principal amount: ");
+	scanf("%d", &p);
+	printf("Enter period: ");
+	scanf("%d", &n);
+	printf("Enter rate of interest: ");
+	scanf("%d", &r);
+	
+	si= (p*n*r)/100;
+	
+	printf("Simple Interest: %f", si);
+	
+	//getch();
+	return 0;
+}
+
+
+
